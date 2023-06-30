@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+*{
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form_outer_box {
+  width: 40%;
+  height: 50%;
+  margin: auto;
+  background-color: rgb(153, 138, 138);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 50%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: auto;
+  gap: 10px;
+  padding-top: 5%;
+}
+
+.label {
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+
+.input_type {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(53, 51, 51);
+}
+
+.btn {
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
   color: white;
+  /* background-color: #0066b2; */
+  background-color: #662d91;
+  border-radius: 30px;
+  padding: 10px 30px;
+  box-shadow: rgba(164, 164, 235, 0.817) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px,
+    rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover{
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.first{
+  background-color: white;
+  width: 10%;
+  height: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
+.details_flex_box{
+  display: flex;
+  gap:20px;
+}
+
+.para{
+  background-color: rgb(204, 146, 146);
+  font-weight: bold;
+  width: fit-content;
+  padding: 10px 30px;
+  height: 20px;
+}
+
